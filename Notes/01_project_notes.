@@ -1,0 +1,64 @@
+# Day 1 — Project Setup & Initial Dataset
+
+## Objective
+
+The goal of this project is to build an end-to-end data engineering pipeline using Databricks, PySpark, SQL, Delta Lake, and GitHub.
+
+I will start with a small dataset and gradually increase the data volume and complexity as the project progresses.
+
+## What I Did Today
+
+* Created a Databricks notebook for generating sample customer data.
+* Generated an initial dataset of 20 customer records.
+* Used Python/PySpark to create the data.
+* Successfully ran the notebook in Databricks.
+* Connected my Databricks repository to GitHub.
+* Committed and pushed my initial notebook to GitHub.
+* Created a project notes file to document my learning and progress.
+
+## Initial Dataset
+
+The dataset contains customer information such as:
+
+* Customer ID
+* Customer name
+* Country
+* Email
+
+I started with only 20 records so I can understand each stage of the data pipeline before scaling the project.
+
+## What I Learned
+
+I learned that Databricks can be integrated with GitHub through a Git repository, allowing notebooks and project files to be version-controlled.
+
+I also learned that Git commits can be used to track my progress as I build the project.
+
+## Planned Lakehouse Architecture
+
+The project will eventually follow this structure:
+
+Source Data
+↓
+Bronze Layer — raw/ingested data
+↓
+Silver Layer — cleaned and transformed data
+↓
+Gold Layer — business-ready data
+
+## GitHub Progress
+
+My initial data-generation notebook has been committed and pushed to GitHub.
+
+This will allow my project development history to be visible to recruiters.
+
+## Next Step
+
+The next step is to create the **Bronze layer** and ingest the initial customer data into the lakehouse.
+
+I will then learn how to store and manage the raw data using Delta Lake before moving to the Silver and Gold layers.
+
+## Reflection
+
+Starting with 20 records gives me a simple dataset that I can use to understand the pipeline before increasing the volume.
+
+As the project grows, I will continue documenting what I learn, the problems I encounter, and how I solve them.
